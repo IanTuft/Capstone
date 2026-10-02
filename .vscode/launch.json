@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "main.py (bouncing ball sim)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/CSE485-486-CapstoneProject-main/main.py",
+      "cwd": "${workspaceFolder}/CSE485-486-CapstoneProject-main",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "tracking.py (YOLO ball detection)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/CSE485-486-CapstoneProject-main/tracking.py",
+      "cwd": "${workspaceFolder}/CSE485-486-CapstoneProject-main",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "testgrid.py (webcam orange tracker)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/CSE485-486-CapstoneProject-main/testgrid.py",
+      "cwd": "${workspaceFolder}/CSE485-486-CapstoneProject-main",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "check_env.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/check_env.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

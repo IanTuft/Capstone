@@ -1,0 +1,4 @@
+# OpenCV 5 dropped readNetFromDarknet, which tracking.py needs. Stay on 4.x.
+# contrib build includes TrackerKCF (commented out in tracking.py for now).
+opencv-contrib-python>=4.10,<5
+numpy
